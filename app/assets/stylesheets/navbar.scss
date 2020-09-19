@@ -1,0 +1,29 @@
+
+
+#northone_nav {
+  color: #385261;
+  font-weight: 1000;
+  font-family: 'Source Sans Pro',
+  sans-serif;
+  font-size: 30px;
+
+}
+
+#logo_icon {
+  width: 70px;
+  height: 70px;
+}
+
+#left_nav {
+  display: flex;
+  align-items: center;
+}
+
+.topnav {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-left: 9vw;
+padding-right: 9vw;
+}
