@@ -26,4 +26,18 @@ justify-content: space-between;
 align-items: center;
 padding-left: 9vw;
 padding-right: 9vw;
+border-bottom: 1px solid #F7F7F7;
+}
+
+.form_btn {
+  background-color: #FF9536;
+  color: white;
+  text-decoration: none;
+  font-family: 'Source Sans Pro',
+  sans-serif;
+  border-radius: 100px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }

@@ -9,10 +9,10 @@ export default () => {
     <div className="topnav">
       <div id="left_nav">
         <img id="logo_icon" src={window.logo_icon} />
-        <a id="northone_nav">NorthOne</a>
+        <Link to="" id="northone_nav">NorthOne</Link>
       </div>
       <div id="right_nav">
-        <Link id="form_btn" to={'/join'}>Open an Account</Link>
+        <Link className="form_btn" to={'/join'}>Open an Account</Link>
       </div>
     </div>
   );
