@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -7,7 +7,7 @@ export default () => {
 
   return (
     <div className="topnav">
-      <div id="left_nav">
+      <div className="left_nav">
         <img id="logo_icon" src={window.logo_icon} />
         <Link to="" id="northone_nav">NorthOne</Link>
       </div>

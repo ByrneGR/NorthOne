@@ -6,11 +6,6 @@ import SplashPage from "./splash_page.jsx"
 
 const App = () => (
   <div>
-    <header>
-      <nav>
-        <Navbar />
-      </nav>
-    </header>
 
     <Route path="/join" component={AccountForm} />
     <Route exact path="/">
