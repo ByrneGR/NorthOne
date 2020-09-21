@@ -71,9 +71,8 @@ class AccountForm extends React.Component {
                 Birthday<br></br>
                 <input type="text" onChange={this.handleInput("birthdate")} />
               </label>
-              <button className="btn-formp1" onClick={this.handleSubmit}>
-                Create Account
-              </button>
+              <input type="submit" className="btn-formp1" onClick={this.handleSubmit} value="Create Account"/>
+  
             </form>
           </div>
           <div id="5_reasons_container">
