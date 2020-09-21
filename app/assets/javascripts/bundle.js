@@ -201,10 +201,9 @@ var AccountForm = /*#__PURE__*/function (_React$Component) {
       this.props.createAccount({
         account: account
       }).then(window.dataLayer.push({
-        event: 'formSubmissionSuccess',
-        formId: 'contactForm'
-      })); // document.location.href='#/thank_you'
-      // )
+        event: "formSubmissionSuccess",
+        formId: "contactForm"
+      })).then(document.location.href = "#/thank_you");
     }
   }, {
     key: "render",

@@ -26,14 +26,16 @@ class AccountForm extends React.Component {
   handleSubmit(e) {
     e.preventDefault()
     const account = Object.assign({}, this.state)
-    this.props.createAccount({account}).
-    then(
-      window.dataLayer.push({
-      event: 'formSubmissionSuccess',
-      formId: 'contactForm'
-      }))
-      // document.location.href='#/thank_you'
-      // )
+    this.props
+      .createAccount({ account })
+      .then(
+        window.dataLayer.push({
+          event: "formSubmissionSuccess",
+          formId: "contactForm",
+        })
+      )
+      .then((document.location.href = "#/thank_you"));  
+
   }
 
   render() {
