@@ -24,7 +24,7 @@ class AccountForm extends React.Component {
   }  
 
   handleSubmit(e) {
-    e.preventDefault()
+    // e.preventDefault()
     const account = Object.assign({}, this.state)
     this.props.createAccount({account}).
     then(document.location.href='#/thank_you')

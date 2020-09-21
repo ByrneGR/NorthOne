@@ -196,7 +196,7 @@ var AccountForm = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "handleSubmit",
     value: function handleSubmit(e) {
-      e.preventDefault();
+      // e.preventDefault()
       var account = Object.assign({}, this.state);
       this.props.createAccount({
         account: account
