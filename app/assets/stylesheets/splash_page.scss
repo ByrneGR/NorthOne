@@ -1,7 +1,9 @@
 .lower_splash {
 padding-left: 15vw;
 padding-right: 15vw;
-  margin-top: 10vh;
+  display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 #splash_h1 {
@@ -18,6 +20,21 @@ padding-right: 15vw;
 
 #benefits_list {
   display: flex;
+  width: 30%;
   flex-wrap: wrap;
-  justify-content: center;
+  list-style-type: none;
+}
+
+.splash_desc {
+  color: #777676;
+  font-family: 'Source Sans Pro',
+    sans-serif;
+}
+
+#proudly_made {
+  margin-bottom: 15%;
+}
+
+#trusted_by {
+  margin-top: 10%;
 }

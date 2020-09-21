@@ -1,7 +1,8 @@
 export const createaccount = (account) => {
   return $.ajax({
-    url: 'accounts',
+    url: '/accounts',
     method: 'POST',
     data: account
   })
 }
+
