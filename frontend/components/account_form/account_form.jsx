@@ -44,30 +44,47 @@ class AccountForm extends React.Component {
         </div>
         <div className="lower_splash">
           <div className="campaign-form-parent">
-          <h1>Open a Northone Bank Account</h1>
+            <h1 className="north_h1">Open a Bank Account</h1>
             <form className="account-form" id="account-form1">
-              <label className="input_label">Email
-              <input type="text"  onChange={this.handleInput("email")}/>
+              <div id="email_input_container">
+                <label className="input_label">
+                  Email<br></br>
+                  <input type="text" onChange={this.handleInput("email")} />
+                </label>
+              </div>
+              <label className="input_label">
+                Password<br></br>
+                <input
+                  type="text"
+                  onChange={this.handleInput("password_digest")}
+                />
               </label>
-              <label className="input_label">Password
-              <input type="text"  onChange={this.handleInput("password_digest")}/>
+              <label className="input_label">
+                First Name<br></br>
+                <input type="text" onChange={this.handleInput("first_name")} />
               </label>
-              <label className="input_label">First Name
-              <input type="text"  onChange={this.handleInput("first_name")}/>
+              <label className="input_label">
+                Last Name<br></br>
+                <input type="text" onChange={this.handleInput("last_name")} />
               </label>
-              <label className="input_label">Last Name
-              <input type="text"  onChange={this.handleInput("last_name")}/>
+              <label className="input_label">
+                Birthday<br></br>
+                <input type="text" onChange={this.handleInput("birthdate")} />
               </label>
-              <label className="input_label">Birthday
-              <input type="text"  onChange={this.handleInput("birthdate")}/>
-              </label>
-              <button
-                className="btn-formp1"
-                onClick={this.handleSubmit}
-              >
+              <button className="btn-formp1" onClick={this.handleSubmit}>
                 Create Account
               </button>
             </form>
+          </div>
+          <div id="5_reasons_container">
+            <h2 id="5_reasons_header">5 Reasons You'll Love NorthOne</h2>
+            <ol className="ordered_list">
+              <li>Instant support from real human beings</li>
+              <li>Save up to 50% on bookkeeping</li>
+              <li>Intuitive financial reporting dashboards</li>
+              <li>Affordable pricing</li>
+              <li>Never step foot in a branch again</li>
+            </ol>
           </div>
         </div>
       </div>

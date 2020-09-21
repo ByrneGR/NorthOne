@@ -17,7 +17,7 @@ class SplashPage extends React.Component {
         </header>
         <div className="lower_splash">
           <div>
-          <h1 id="splash_h1">
+          <h1 className="north_h1">
             <span>America's</span>
             <br></br>
             <span>Challenger Bank</span>
