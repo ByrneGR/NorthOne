@@ -54,5 +54,9 @@ h2 {
   color: white;
   letter-spacing: 2px;
   cursor: pointer;
+  margin-bottom: 50%;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
 }
 
