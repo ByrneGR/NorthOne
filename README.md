@@ -36,7 +36,7 @@ Hosting: Heroku
 
 * Funnel Tracking with Mixpanel
     * Insights:
-        * 
+        ![Imgur](https://i.imgur.com/FrPeI7d.png)
         * 43% conversion from page view to CTA Click
         * 33% conversion from CTA Click to Form Submission
     * Future Ideas
