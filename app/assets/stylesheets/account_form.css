@@ -32,10 +32,8 @@ label {
       sans-serif;
 }
 
-#5_reasons_container {
-  background-color: rgb(192, 192, 245);
-  border-radius: 5px;
-  padding: 10px;
+li {
+  color: black;
 }
 
 h2 {
@@ -54,9 +52,20 @@ h2 {
   color: white;
   letter-spacing: 2px;
   cursor: pointer;
-  margin-bottom: 50%;
   text-align: center;
   padding: 5px;
   width: 100%;
 }
+
+.account-form-parent {
+  height: 50%;
+}
+
+#thank_you_h1 {
+  text-align: center;
+  color: #777676;
+  font-family: 'Source Sans Pro',
+  sans-serif;
+}
+
 

@@ -4,7 +4,7 @@ class ThankYouPage extends React.Component {
   render() {
     return (
       <div>
-        Thank You! 
+        <h1 id="thank_you_h1">Thank You For Registering!</h1>
       </div>
     )
   }

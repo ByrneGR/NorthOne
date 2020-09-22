@@ -208,6 +208,11 @@ var AccountForm = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
+      var fiveReasonsStyle = {
+        backgroundColor: "rgb(192, 192, 245)",
+        borderRadius: "5px",
+        padding: "15px"
+      };
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__["Helmet"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Join NorthOne")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "form_nav",
         className: "left_nav"
@@ -220,7 +225,7 @@ var AccountForm = /*#__PURE__*/function (_React$Component) {
       }, "NorthOne")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "lower_splash"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "campaign-form-parent"
+        className: "account-form-parent"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "north_h1"
       }, "Open a Bank Account"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -257,6 +262,7 @@ var AccountForm = /*#__PURE__*/function (_React$Component) {
         className: "btn-formp1",
         onClick: this.handleSubmit
       }, "Create Account"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        style: fiveReasonsStyle,
         id: "5_reasons_container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "5_reasons_header"
@@ -551,7 +557,9 @@ var ThankYouPage = /*#__PURE__*/function (_React$Component) {
   _createClass(ThankYouPage, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Thank You!");
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        id: "thank_you_h1"
+      }, "Thank You For Registering!"));
     }
   }]);
 

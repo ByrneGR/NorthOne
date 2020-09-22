@@ -38,7 +38,14 @@ class AccountForm extends React.Component {
 
   }
 
+
+
   render() {
+    const fiveReasonsStyle = {
+      backgroundColor: "rgb(192, 192, 245)",
+      borderRadius: "5px",
+      padding: "15px"
+    };
     return (
       <div>
         <Helmet>
@@ -51,7 +58,7 @@ class AccountForm extends React.Component {
           </Link>
         </div>
         <div className="lower_splash">
-          <div className="campaign-form-parent">
+          <div className="account-form-parent">
             <h1 className="north_h1">Open a Bank Account</h1>
             <form className="account-form" id="account-form1">
               <div id="email_input_container">
@@ -84,7 +91,7 @@ class AccountForm extends React.Component {
               </btn>
             </form>
           </div>
-          <div id="5_reasons_container">
+          <div style={fiveReasonsStyle} id="5_reasons_container">
             <h2 className="5_reasons_header">5 Reasons You'll Love NorthOne</h2>
             <ol className="ordered_list">
               <li>Instant support from real human beings</li>
