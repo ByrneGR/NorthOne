@@ -49,7 +49,7 @@ Hosting: Heroku
             * Form length tests
 * Campaign/Source Tracking with Google Analytics
     *  Insights
-        * 
+         ![Imgur](https://i.imgur.com/k2hIEDP.png)
             * Facebook driving highest conversion rate, but lowest volume - increase budgets there
             * LinkedIn has the highest bounce rate at 50%, audit targeting/placements to make sure we’re reaching a quality audience
     * Future Ideas
