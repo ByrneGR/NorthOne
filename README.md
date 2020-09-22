@@ -19,15 +19,15 @@ Hosting: Heroku
 * Implemented
     * Used Google Tag Manager to set up event tracking for Google Analytics and Mixpanel
     * Setup goal tracking and goal values in Google Analytics for 3 goals
-        1. Greater than 5 Seconds on the Page - is the site and its content hooking users and preventing high bounce rates, which are especially common on ad platforms?
-        2. CTA Button Click - Is the value proposition convincing enough to make users take the first step towards conversion, clicking the call-to-action and opening the form
-        3. Form Submission - Is the form experience seamless and does it encourage users to take the final step and convert
+        1. Greater than 5 Seconds on the Page - Is the site and its content hooking users and preventing high bounce rates, which are especially common on ad platforms?
+        2. CTA Button Click - Is the value proposition convincing enough to make users take the first step towards conversion, clicking the call-to-action and opening the form?
+        3. Form Submission - Is the form experience seamless and does it encourage users to take the final step and convert?
     * Setup campaign tracking with UTMs in Google Analytics
     * Set up Segment and Google Analytics/Mixpanel integrations 
 * Future Ideas
     * Server-side tagging instead of client-side tagging
         * Faster load times to increase goal conversion rates and reduce bounce rates
-        * Better data quality without adblockres
+        * Better data quality without adblockers
         * More secure customer data
     * Downstream tracking
         * Setting up reports to view post-conversion data by lead source (ex: looking at customer lifetime value by channel instead of solely cost per conversion to ensure we’re delivering the biggest return on ad spend)
@@ -44,9 +44,9 @@ Hosting: Heroku
             * Competitor Analysis Chart to show benefits of NorthOne vs big banks, other digital banks
             * Promotional deals to drive urgency - “For a limited time only, new NorthOne accounts receive $100!"
         * A/B testing different stages of funnel
-            * Copy tests
-            * Design tests
-            * Form length tests
+            * Copy tests - which value props resonate the most with users?
+            * Design tests - One page form vs multi step form
+            * Form length tests - Is every field necessary at account creation and what impact does removing some have on conversion rates?
 * Campaign/Source Tracking with Google Analytics
     *  Insights
          ![Imgur](https://i.imgur.com/k2hIEDP.png)
