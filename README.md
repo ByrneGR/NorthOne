@@ -50,8 +50,8 @@ Hosting: Heroku
 * Campaign/Source Tracking with Google Analytics
     *  Insights
          ![Imgur](https://i.imgur.com/k2hIEDP.png)
-            * Facebook driving highest conversion rate, but lowest volume - increase budgets there
-            * LinkedIn has the highest bounce rate at 50%, audit targeting/placements to make sure we’re reaching a quality audience
+        * Facebook is driving the highest conversion rate, but lowest conversion volume - increase budgets there
+        * LinkedIn has the highest bounce rate at 50%, audit targeting/placements to make sure we’re reaching a quality audience
     * Future Ideas
         * Passing downstream conversion data to ad platforms for optimization
             * Ex: Build lookalike audience on Facebook based on a seed list of our highest value customers instead of all customers
