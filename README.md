@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Thank you for the opportunity to apply for this position. Below are notes on the project as well as ideas for future initiatives.
 
-Things you may want to cover:
+Backend: Ruby on Rails
+Frontend: React/Redux
+Hosting: Heroku
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
