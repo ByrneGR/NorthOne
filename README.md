@@ -31,4 +31,31 @@ Hosting: Heroku
         * More secure customer data
     * Downstream tracking
         * Setting up reports to view post-conversion data by lead source (ex: looking at customer lifetime value by channel instead of solely cost per conversion to ensure we’re delivering the biggest return on ad spend)
+        
+**Performance Analysis**
+    * Funnel Tracking with Mixpanel
+        * Insights:
+            * 
+            * 43% conversion from page view to CTA Click
+            * 33% conversion from CTA Click to Form Submission
+        * Future Ideas
+            * More informative content on spash page to educate and retain users on site
+                * Competitor Analysis Chart to show benefits of NorthOne vs big banks, other digital banks
+                * Promotional deals to drive urgency - “For a limited time only, new NorthOne accounts receive $100!"
+            * A/B testing different stages of funnel
+                * Copy tests
+                * Design tests
+                * Form length tests
+    * Campaign/Source Tracking with Google Analytics
+        *  Insights
+            * 
+                * Facebook driving highest conversion rate, but lowest volume - increase budgets there
+                * LinkedIn has the highest bounce rate at 50%, audit targeting/placements to make sure we’re reaching a quality audience
+        * Future Ideas
+            * Passing downstream conversion data to ad platforms for optimization
+                * Ex: Build lookalike audience on Facebook based on a seed list of our highest value customers instead of all customers
+            * Dynamic landing pages based on audiences - different page for small business owners vs freelancers. Copy based on keywords targeted in SEM.
+            * Reducing page load speeds for landing pages
+
+        
 
