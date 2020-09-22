@@ -19,7 +19,7 @@ Hosting: Heroku
 * Implemented
     * Used Google Tag Manager to set up event tracking for Google Analytics and Mixpanel
     * Setup goal tracking and goal values in Google Analytics for 3 goals
-        1. >5 Seconds on the Page - is the site and its content hooking users and preventing high bounce rates, which are especially common on ad platforms?
+        1. Greater than 5 Seconds on the Page - is the site and its content hooking users and preventing high bounce rates, which are especially common on ad platforms?
         2. CTA Button Click - Is the value proposition convincing enough to make users take the first step towards conversion, clicking the call-to-action and opening the form
         3. Form Submission - Is the form experience seamless and does it encourage users to take the final step and convert
     * Setup campaign tracking with UTMs in Google Analytics
