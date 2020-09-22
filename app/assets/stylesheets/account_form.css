@@ -1,6 +1,6 @@
 #form_nav {
-padding-left: 15vw;
-padding-right: 15vw;
+padding-left: 18vw;
+padding-right: 18vw;
 }
 
 .account-form {
@@ -33,15 +33,26 @@ label {
 }
 
 #5_reasons_container {
-  background-color: rgb(167, 167, 213);
+  background-color: rgb(192, 192, 245);
   border-radius: 5px;
+  padding: 10px;
 }
 
-#5_reasons_header {
-    color: #24343E;
-  font-size: 36px;
+h2 {
+  color: #24343E;
+  font-size: 28px;
   font-family: 'Source Sans Pro',
   sans-serif;
 }
 
+.btn-formp1 {
+  font-family: 'Source Sans Pro',
+  sans-serif;
+  border-radius: 5px;
+  background-color: #FF9536;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
 

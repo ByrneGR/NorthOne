@@ -18,14 +18,13 @@ class SplashPage extends React.Component {
         <div className="lower_splash">
           <div>
           <h1 className="north_h1">
-            <span>America's</span>
+            <span>Small Business Banking</span>
             <br></br>
-            <span>Challenger Bank</span>
+            <span>Simplified.</span>
           </h1>
           <p id="proudly_made" className="splash_desc">
-            <span>Proudly made for small businesses,</span>
-            <br></br>
-            <span>startups, and freelancers.</span>
+            <span>Designed specifically for small business owners </span>
+            <span>and freelancers</span>
           </p>
           <Link  className="form_btn" to={"/join"}>
             Open an Account

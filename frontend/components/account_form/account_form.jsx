@@ -83,8 +83,8 @@ class AccountForm extends React.Component {
   
             </form>
           </div>
-          <div id="5_reasons_container">
-            <h2 id="5_reasons_header">5 Reasons You'll Love NorthOne</h2>
+          <div id="5_reasons_container" >
+            <h2 className="5_reasons_header">5 Reasons You'll Love NorthOne</h2>
             <ol className="ordered_list">
               <li>Instant support from real human beings</li>
               <li>Save up to 50% on bookkeeping</li>
